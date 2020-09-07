@@ -21,6 +21,7 @@ head(resko)
 #make figures
 ggbar(resgo)
 ggdot(resko)
+ggnetplot(resgo)
 ```
 ## Contact information
 For any questions please contact guokai8@gmail.com
