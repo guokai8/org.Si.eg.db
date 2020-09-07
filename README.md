@@ -26,6 +26,8 @@ ggnetplot(resgo)
 ## get annotation 
 #check the id type
 columns(org.Si.eg.db)
+# show annotation of gene
+select(org.Si.eg.db,keys=genes,columns='GENENAME')
 # show mapped rice id
 select(org.Si.eg.db,keys=genes,columns='Os')
 # show mapped TAIR id
