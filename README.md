@@ -22,6 +22,11 @@ head(resko)
 ggbar(resgo)
 ggdot(resko)
 ggnetplot(resgo)
+## get annotation 
+#check the id type
+columns(org.Si.eg.db)
+#KO brite
+#
 ```
 ## Contact information
 For any questions please contact guokai8@gmail.com
