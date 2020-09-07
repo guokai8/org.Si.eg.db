@@ -1,5 +1,5 @@
 # org.Si.eg.db
-Anntation database for Setaria italica
+__Anntation database for Setaria italica__
 ## Install
 ```
 #Download the annoation package org.Si.eg.db.7z and uncompress it
