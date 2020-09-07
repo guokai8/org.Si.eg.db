@@ -23,3 +23,4 @@ ggbar(resgo)
 ggdot(resko)
 ```
 ## Contact information
+For any questions please contact guokai8@gmail.com
