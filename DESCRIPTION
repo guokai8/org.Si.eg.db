@@ -1,0 +1,14 @@
+Package: org.Si.eg.db
+Title: Genome wide annotation for  Si
+Description: Genome wide annotation for  Si, primarily based on mapping using Entrez Gene identifiers.
+Version: 0.0.1
+Author: Kai Guo, Xukai Li
+Maintainer: Kai Guo <guokai8@gmail.com>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.50.3)
+Suggests: DBI, annotate, RUnit
+Imports: methods, AnnotationDbi
+License: Artistic-2.0
+organism:  Si
+species:  Si
+biocViews: OrgDb, annotation
+
