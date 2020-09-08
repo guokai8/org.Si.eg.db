@@ -4,7 +4,7 @@ __Anntation database for Setaria italica__
 ```
 #Download the annoation package org.Si.eg.db.7z and uncompress it
 wget -c https://github.com/guokai8/org.Si.eg.db/blob/master/org.Si.eg.db.7z
-install.package("org.Si.eg.db",repos=NULL,type="source")
+install.packages("org.Si.eg.db",repos=NULL,type="source")
 ```
 ## How to use it 
 ```
