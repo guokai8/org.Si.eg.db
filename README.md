@@ -11,7 +11,9 @@ install.packages("org.Si.eg.db",repos=NULL,type="source")
 ## How to use it 
 ```
 library(org.Si.eg.db)
-##enrichment analysis
+```
+## Enrichment analysis
+```
 # install_github("guokai8/richR")
 library(richR)
 sigo<-buildOwn(dbname="org.Si.eg.db",anntype="GO")  
@@ -25,7 +27,9 @@ head(resko)
 ggbar(resgo)
 ggdot(resko)
 ggnetplot(resgo)
-## get annotation 
+```
+## Use the annotation database
+```
 #check the id type
 columns(org.Si.eg.db)
 # show annotation of gene
