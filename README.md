@@ -29,6 +29,7 @@ ggnetplot(resgo)
 #check the id type
 columns(org.Si.eg.db)
 # show annotation of gene
+## use AnnotationDbi::select to avoid function overwrite
 select(org.Si.eg.db,keys=genes,columns='GENENAME')
 # show mapped rice id
 select(org.Si.eg.db,keys=genes,columns='Os')
